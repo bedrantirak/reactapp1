@@ -1,24 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
+import User from "./components/User";
 import './App.css';
 
-function App() {
-  const test =34;
-  const isAuto=true;
+export default class App extends Component {
+  render(){
   return (
     <div className="App">
-      <h4>{1+1} </h4>
-      <h4>{"bedran".toUpperCase()}</h4>
-      <h4>{test}</h4>
-      <div>
-        {
-          isAuto ? <p>Kullanıcı kayıtlı</p>
-          : null
-        }
-
-
-      </div>
+     <h4>App Component</h4>
+     <User/>
+     <User/>
+     <User/>
     </div>
   );
 }
+}
 
-export default App;
+
