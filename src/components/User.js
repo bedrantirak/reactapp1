@@ -3,15 +3,26 @@ import PropTypes from 'prop-types';
 
 
 export default class User extends Component {
+    state={
+        isVisible : true
+    }
     static defaultProps ={
              name : "Bilgi yok",
             department : "Bilgi yok",
              salary : "Bigi yok"
          }
 
+        //  constructor(props){
+        //      super(props)
+        //      this.state={
+        //      isVisible :true
+        //      }
+        //  }
+
     render() {
         //Destructing
         const {name,department,salary} = this.props;
+        //  const{isVisible}=this.props;
         return (
             <div className="col-md-8 mb-4">
                 {/* <form>
@@ -29,10 +40,14 @@ export default class User extends Component {
             <h4 className="d-inline">{name}</h4>
             <i className="far fa-trash-alt" style={{cursor:"pointer"}}></i>
                     </div>
-                    <div className="card-body">
-            <p className="card-text">Maaş : {salary}</p>
-            <p className="card-text">Departman : {department}</p>
-            </div>
+                  {/* {
+                      isVisible ?  */}
+                     <div className="card-body">
+                      <p className="card-text">Maaş : {salary}</p>
+                      <p className="card-text">Departman : {department}</p>
+                      </div>
+                      {/*  :null
+                  } */}
                     </div> 
 
 
