@@ -1,15 +1,13 @@
 import React, {Component} from 'react';
-import User from "./components/User";
 import './App.css';
 
 export default class App extends Component {
   render(){
   return (
-    <div className="App">
-     <h4>App Component</h4>
-     <User/>
-     <User/>
-     <User/>
+    <div className="container" >
+      <h4>App Component</h4>
+    {/* <h4 style={{color:"blue",fontSize:"30px"}}>App Component</h4> */}
+     {/* <h4 className="header">App Component</h4> */}
     </div>
   );
 }
