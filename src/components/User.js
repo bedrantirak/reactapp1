@@ -1,6 +1,14 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types';
+
 
 export default class User extends Component {
+    static defaultProps ={
+             name : "Bilgi yok",
+            department : "Bilgi yok",
+             salary : "Bigi yok"
+         }
+         
     render() {
         //Destructing
         const {name,department,salary} = this.props;
@@ -20,4 +28,14 @@ export default class User extends Component {
             </div>
         )
     }
+}
+// User.defaultProps ={
+//     name : "Bilgi yok",
+//     department : "Bilgi yok",
+//     salary : "Bigi yok"
+// }
+User.propTypes ={
+    name : PropTypes.string.isRequired,
+    department : PropTypes.string.isRequired,
+    salary : PropTypes.string.isRequired
 }

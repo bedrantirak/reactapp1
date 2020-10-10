@@ -10,15 +10,15 @@ export default class App extends Component {
       {/* <h4>App Component</h4> */}
     {/* <h4 style={{color:"blue",fontSize:"30px"}}>App Component</h4> */}
      {/* <h4 className="header">App Component</h4> */}
-     
+
      <Navbar 
-     title = "User App 2"
+     title = "User App"
      />
      <hr/>
      <User
       name = "Bedran Tırak"
       department ="Software"
-      salary = "4000"     
+      // salary = "4000"     
      />
       <User
       name = "Evin Tırak"
