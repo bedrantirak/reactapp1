@@ -25,10 +25,10 @@
 // create with rfc tab =>>
 import React from 'react'
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <div>
-            <h3>User App</h3>
+            <h3>{props.title}</h3>
         </div>
     )
 }
