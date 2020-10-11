@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Users from "./components/Users";
-
+import AddUser from "./components/AddUser";
 
 export default class App extends Component {
   
@@ -14,6 +14,7 @@ export default class App extends Component {
      title = "User App"
      />
      <hr/>
+     <AddUser/>
      <Users />
     </div>
   );
