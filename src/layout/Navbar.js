@@ -14,6 +14,9 @@ export default function Navbar(props) {
                 <li>
                     <a href ="/add">Add Users</a>
                     </li>
+                    <li>
+                    <a href ="/github">Project Files</a>
+                    </li>
             </ul>
         </div>
     )
