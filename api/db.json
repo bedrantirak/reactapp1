@@ -23,6 +23,12 @@
       "salary": "7000",
       "department": "Yazılım",
       "id": "DdcKgiP"
+    },
+    {
+      "name": "deneme",
+      "salary": "deneme",
+      "department": "deneme",
+      "id": "xZCkxzb"
     }
   ]
 }
