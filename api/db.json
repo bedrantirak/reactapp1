@@ -11,6 +11,18 @@
       "name": "Evin Tırak",
       "department": "Uretim",
       "salary": "5000"
+    },
+    {
+      "name": "Hasret Tırak",
+      "salary": "6000",
+      "department": "Pazarlama",
+      "id": "pvXe5Pp"
+    },
+    {
+      "name": "Hasan Tırak",
+      "salary": "7000",
+      "department": "Yazılım",
+      "id": "DdcKgiP"
     }
   ]
 }
