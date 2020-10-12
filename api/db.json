@@ -1,24 +1,16 @@
-
- { "users" : [
+{
+  "users": [
     {
-        "id":"unique2",
-        "name" :"Bedran Tırak",
-        "department" : "Yazılım",
-        "salary" : "4000"
-      },
-      {
-       "id":"unique1",
-       "name" :"Evin Tırak",
-       "department" : "Uretim",
-       "salary" : "5000"
-     },
-     {
-       "id":"unique3",
-       "name" :"Hasret Tırak",
-       "department" : "Pazarlama",
-       "salary" : "6000"
-     }
-
-]
-
+      "id": "unique2",
+      "name": "Bedran Tırak",
+      "department": "Yazılım",
+      "salary": "4000"
+    },
+    {
+      "id": "unique1",
+      "name": "Evin Tırak",
+      "department": "Uretim",
+      "salary": "5000"
+    }
+  ]
 }
